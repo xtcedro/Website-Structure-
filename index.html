@@ -1,14 +1,27 @@
-<!-- Language Selection Modal -->
-<div id="language-modal" class="modal">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Language Selection</title>
+</head>
+<body>
+  <!-- Language Selection Modal -->
+  <div id="language-modal" class="modal">
     <div class="modal-content">
-        <h2>Language</h2>
-        <div class="language-options">
-            <button onclick="setLanguage('en')">
-                <img src="assets/images/us-flag.png" alt="English" class="flag-icon"> English
-            </button>
-            <button onclick="setLanguage('es')">
-                <img src="assets/images/mx-flag.png" alt="Español" class="flag-icon"> Español
-            </button>
-        </div>
+      <h2>Select Language</h2>
+      <div class="language-options">
+        <button onclick="setLanguage('en')">
+          <img src="assets/images/us-flag.png" alt="English Flag" width="24" height="16"> English
+        </button>
+        <button onclick="setLanguage('es')">
+          <img src="assets/images/mx-flag.png" alt="Spanish Flag" width="24" height="16"> Español
+        </button>
+      </div>
     </div>
-</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
