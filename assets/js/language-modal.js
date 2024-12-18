@@ -1,5 +1,4 @@
-<script>
-    function setLanguage(lang) {
+function setLanguage(lang) {
         if (lang === 'en') {
             window.location.href = 'index.html'; // Redirect to the English version
         } else if (lang === 'es') {
@@ -14,4 +13,3 @@
             modal.style.display = "flex";
         }
     });
-</script>
