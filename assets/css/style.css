@@ -141,18 +141,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Link styling */
-a {
-    color: #FF6600;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #FFFFFF;
-    text-decoration: underline;
-}
-
 /* Mobile menu styling */
 .mobile-menu {
     display: none;
