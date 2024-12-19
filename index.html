@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <title>Company Name</title>
 </head>
 
 <body class="hidden">
     <div id="main-content" class="hidden-content">
-
-        <!-- Header Section -->
+    
+      <!-- Header Section -->
         <header>
             <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-            <div class="title-banner">
-                <img src="assets/images/banner.png" alt="Company Name">
+            <div class="title-banner"
+                <img src="assets/images/banner.png" alt="Description">
             </div>
         </header>
-
-        <!-- Language Selection Modal -->
+      
+      <!-- Language Selection Modal -->
         <div id="language-modal" class="modal">
             <div class="modal-content">
                 <h2>Language</h2>
@@ -27,7 +27,7 @@
                         <img src="assets/images/us-flag.png" alt="English Flag" class="flag-icon"> English
                     </button>
                     <button onclick="setLanguage('es')">
-                        <img src="assets/images/mx-flag.png" alt="Spanish Flag" class="flag-icon"> Español
+                        <img src="assets/images/mx-flag.png" alt="Spanish Flag" style="width: 40px; height: 40px;"> Español
                     </button>
                 </div>
             </div>
@@ -93,7 +93,7 @@
         </footer>
 
     </div>
-
+  
     <script src="assets/js/language-modal.js"></script>
     <script src="assets/js/menu.js"></script>
 </body>
