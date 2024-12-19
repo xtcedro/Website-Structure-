@@ -497,3 +497,7 @@ blockquote {
     color: #002855;
     margin-bottom: 1rem;
 }
+
+.hidden {
+    display: none;
+}
